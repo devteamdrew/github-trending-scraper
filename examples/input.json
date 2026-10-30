@@ -1,0 +1,8 @@
+{
+  "type": "repositories",
+  "since": "daily",
+  "languages": [
+    "typescript"
+  ],
+  "maxItems": 10
+}
