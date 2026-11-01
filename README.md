@@ -2,7 +2,7 @@
 
 Export GitHub Trending repositories and developers (daily, weekly, monthly, by language) with stars, forks, stars gained and optional topics/license from the GitHub API. Schedule it to track what's hot.
 
-**[Run it on Apify →](https://apify.com/devteamdrew/github-trending-scraper?utm_source=github&utm_medium=readme&utm_campaign=github-trending-scraper)** (pay per result, free Apify account to start)
+**[Run it on Apify →](https://apify.com/devteamdrew/github-trending-scraper?utm_source=github&utm_medium=readme&utm_campaign=github-trending-scraper&utm_content=hero)** (pay per result, free Apify account to start)
 
 
 **GitHub Trending Scraper** by Moxie: fast, reliable and polite, built on official/public data sources.
@@ -29,7 +29,7 @@ The public github.com/trending page (no login) and, optionally, the GitHub REST 
 
 ## Quick start
 
-1. Create a free account at [apify.com](https://apify.com/devteamdrew/github-trending-scraper?utm_source=github&utm_medium=readme&utm_campaign=github-trending-scraper) and copy your API token.
+1. Create a free account at [apify.com](https://apify.com/devteamdrew/github-trending-scraper?utm_source=github&utm_medium=readme&utm_campaign=github-trending-scraper&utm_content=quickstart) and copy your API token.
 2. `export APIFY_TOKEN=...`
 3. Run one of the examples:
 
@@ -52,23 +52,34 @@ Example input ([examples/input.json](examples/input.json)):
 }
 ```
 
+## FAQ
+
+**Why do some fields come from the API?**
+The trending page doesn't show topics or license; enable enrichment to add them.
+
 ## Use with AI agents (MCP)
 
 Add `https://mcp.apify.com/?actors=devteamdrew/github-trending-scraper` as an MCP server in Claude, Cursor or any MCP client.
 
 ## Pricing
 
-See the [Apify Store page](https://apify.com/devteamdrew/github-trending-scraper?utm_source=github&utm_medium=readme&utm_campaign=github-trending-scraper) for current pay-per-result pricing.
+See the [Apify Store page](https://apify.com/devteamdrew/github-trending-scraper?utm_source=github&utm_medium=readme&utm_campaign=github-trending-scraper&utm_content=pricing) for current pay-per-result pricing.
+
+## Sample data
+
+Browse real sample rows, download a free CSV sample and see ready-made feeds at [rowsift.co.uk](https://rowsift.co.uk/feeds/github-trending-scraper/?utm_source=github&utm_medium=readme&utm_campaign=github-trending-scraper&utm_content=sample-data).
 
 ## More data actors
 
-- [Bluesky Scraper & API – Posts, Profiles & Search](https://apify.com/devteamdrew/bluesky-scraper?utm_source=github&utm_medium=readme&utm_campaign=github-trending-scraper)
-- [Companies House Scraper – UK Company Data, Directors & Filings](https://apify.com/devteamdrew/companies-house-scraper?utm_source=github&utm_medium=readme&utm_campaign=github-trending-scraper)
-- [UK Planning Applications Scraper – 400+ Councils & Postcodes](https://apify.com/devteamdrew/uk-planning-applications?utm_source=github&utm_medium=readme&utm_campaign=github-trending-scraper)
-- [Hacker News Scraper – Stories, Comments & Who Is Hiring Jobs](https://apify.com/devteamdrew/hacker-news-scraper?utm_source=github&utm_medium=readme&utm_campaign=github-trending-scraper)
-- [npm Scraper – Package Downloads, Dependencies & Maintainers](https://apify.com/devteamdrew/npm-package-scraper?utm_source=github&utm_medium=readme&utm_campaign=github-trending-scraper)
-- [Mastodon Scraper – Fediverse Hashtags, Accounts & Trends](https://apify.com/devteamdrew/mastodon-scraper?utm_source=github&utm_medium=readme&utm_campaign=github-trending-scraper)
-- [Lemmy Scraper – Posts, Comments & Communities (Fediverse)](https://apify.com/devteamdrew/lemmy-scraper?utm_source=github&utm_medium=readme&utm_campaign=github-trending-scraper)
+- [Bluesky Scraper & API – Posts, Profiles & Search](https://apify.com/devteamdrew/bluesky-scraper?utm_source=github&utm_medium=readme&utm_campaign=github-trending-scraper&utm_content=more)
+- [Companies House Scraper – UK Company Data, Directors & Filings](https://apify.com/devteamdrew/companies-house-scraper?utm_source=github&utm_medium=readme&utm_campaign=github-trending-scraper&utm_content=more)
+- [UK Planning Applications Scraper – 400+ Councils & Postcodes](https://apify.com/devteamdrew/uk-planning-applications?utm_source=github&utm_medium=readme&utm_campaign=github-trending-scraper&utm_content=more)
+- [Hacker News Scraper – Stories, Comments & Who Is Hiring Jobs](https://apify.com/devteamdrew/hacker-news-scraper?utm_source=github&utm_medium=readme&utm_campaign=github-trending-scraper&utm_content=more)
+- [npm Scraper – Package Downloads, Dependencies & Maintainers](https://apify.com/devteamdrew/npm-package-scraper?utm_source=github&utm_medium=readme&utm_campaign=github-trending-scraper&utm_content=more)
+- [Mastodon Scraper – Fediverse Hashtags, Accounts & Trends](https://apify.com/devteamdrew/mastodon-scraper?utm_source=github&utm_medium=readme&utm_campaign=github-trending-scraper&utm_content=more)
+- [Lemmy Scraper – Posts, Comments & Communities (Fediverse)](https://apify.com/devteamdrew/lemmy-scraper?utm_source=github&utm_medium=readme&utm_campaign=github-trending-scraper&utm_content=more)
+- [SEC EDGAR Scraper – Filings Search, 10-K, 10-Q & 8-K](https://apify.com/devteamdrew/sec-edgar-scraper?utm_source=github&utm_medium=readme&utm_campaign=github-trending-scraper&utm_content=more)
+- [arXiv Scraper – Papers, Abstracts & Authors Search](https://apify.com/devteamdrew/arxiv-scraper?utm_source=github&utm_medium=readme&utm_campaign=github-trending-scraper&utm_content=more)
 
 ## License
 
